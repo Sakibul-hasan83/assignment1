@@ -1,14 +1,4 @@
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
 
-.noto-serif-<uniquifier> {
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
 *{
 
     box-sizing:border-box;
@@ -100,4 +90,76 @@ width:208px ;
 border-radius: 8px;
 color: white;
 font: size 20px;;
+}
+
+
+.main-style{
+
+height:1395px ;
+width:1140px ;
+border: 3px solid green;
+margin: 0;
+margin-top:74px;
+margin-left: 200px;
+
+}
+.maindiv1-style{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+.mainh1-style{
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.mainp1-style{
+
+font-size:16px;
+opacity: 0.7;
+
+
+}
+
+.section-style{
+
+display: flex;
+
+flex-direction: row;
+
+
+
+}
+
+.section1-h2{
+
+margin-top:100px;
+
+}
+
+.section1-p{
+
+    margin-top: 32px;
+
+}
+
+.section1-button{
+
+margin-top:32px;
+height: 48px;
+width: 149px;
+border-radius: 0px;
+}
+
+.section1img{
+
+    width: 206.4px;
+height: 187.32px;
+
+margin-left: 300px;
+margin-top:70px;
 }
