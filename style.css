@@ -1,0 +1,103 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.noto-serif-<uniquifier> {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*{
+
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-style{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.s-name{
+
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+
+.btn{
+   
+    color: blue;
+    height: 50px;
+weight: 150px;
+border-radius: 8px;
+margin-right: 166px;
+margin-top: 31px;
+padding-top: 24px;
+padding-right: 24px;
+padding-bottom: 24px;
+padding-left: 24px;
+}
+
+.banner-container{
+
+    width: 1440px;
+height: 652px;
+
+    border:2px solid  red;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url('assets/Hero-bg.png');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 582px;
+  
+
+
+
+
+
+}
+
+.hspan-style{
+
+margin-left: 200px;
+}
+.pspan-style{
+    margin-left:70px;
+
+}
+
+.banner-container p{
+    margin-top: 24px;
+    font-size: 11px;
+}
+
+.banner-content-img{
+
+    margin-top: 26px;
+}
+
+.button-style{
+
+height:66px;
+width:208px ;
+    margin-top: 42px;
+    background-color: rgb(13, 19, 33);
+border-radius: 8px;
+color: white;
+font: size 20px;;
+}
