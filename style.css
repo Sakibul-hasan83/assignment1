@@ -256,24 +256,33 @@ margin-left: 20px;
     margin: 50px;
     display: flex;
     flex-direction: row;
-    justify-content:space-between ;
+    justify-content:space-between;
+ 
 
 
 }
 .fimgcontent{
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around ;
-      
+   margin-left: 500px;
 }
-.img1{
+.icon1{
     margin-right: 20px;
 }
-.img3{
+.fbicon{
 
-    margin-left: 20px;
+    margin-right:;
 }
+.linkicon{
+    margin-left: 20px;
+
+}
+.githubicon{
+margin-left: 20px;
+
+}
+
+
+
 .jsbox-style{
 border-radius: 10px;
     background-color: #faf6dd ;
