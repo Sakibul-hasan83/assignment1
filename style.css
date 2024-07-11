@@ -263,7 +263,7 @@ margin-left: 20px;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
- 
+ margin-bottom: 50px;
 
 
 }
@@ -290,16 +290,26 @@ margin-left: 20px;
 
 
 .jsbox-style{
-border-radius: 10px;
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+border-radius: 16px;
     background-color: #faf6dd ;
 }
 .htmlbox-style{
-border-radius: 10px;
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+
+border-radius: 16px;
     background-color: #fae4de ;
     
     
 }
 .cssbox-style{
-border-radius: 10px;
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+border-radius: 16px;
 background-color: #dee8fa;
 }
