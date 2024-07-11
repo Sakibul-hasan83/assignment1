@@ -114,8 +114,8 @@ align-items: center;
 }
 .mainh1-style{
 
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 80px;
+
 }
 .mainp1-style{
 
@@ -198,10 +198,93 @@ justify-content: space-between;
     display:flex;
 
     flex-direction:row;
-    justify-content:center;
+    justify-content:space-around;
     align-items:center;
     height: 582px;
-  
+  padding:10px ;
+}
+
+.footer-style{
+
+width: 1140px;
+height: 314px;
+border-radius: 16px;
+padding: 64px 64px 64px 64px;
+background-image: url("assets/handshake.jpg");
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+
+}
+.fdiv1{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: ;
+    color: white;
+}
+
+.search1{
+
+    width: 548px;
+    height: 57px;
+border-radius: 8px;
+}
+.search2{
+
+width:120px ;
+height:58px ;
+border-radius: 8px;
+margin-left: 20px;
 }
 
 
+.fdiv2{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.lastsection-style{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+
+
+}
+.fimgcontent{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+      
+}
+.img1{
+    margin-right: 20px;
+}
+.img3{
+
+    margin-left: 20px;
+}
+.jsbox-style{
+border-radius: 10px;
+    background-color: #faf6dd ;
+}
+.htmlbox-style{
+border-radius: 10px;
+    background-color: #fae4de ;
+    
+    
+}
+.cssbox-style{
+border-radius: 10px;
+background-color: #dee8fa;
+}
